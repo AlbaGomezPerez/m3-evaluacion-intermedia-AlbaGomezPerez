@@ -3,11 +3,13 @@
 }
 .Info{
 	list-style: none; 
+	display: flex; 
 }
 .InfoCharacter{
 	background-color: rgb(180, 224, 210); 
 	width: 200px; 
 	margin-top: 20px; 
+	margin-left: 20px; 
 	
 } 
 .InfoImg{

@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class PokemonList extends React.Component {
 	render() {
 	  return (
-		<ul className="Info">
+		<ol className="Info">
 		  {this.props.PokemonInfo.map(character => {
 			return (
 			  <li className="InfoCharacter"> 
@@ -13,7 +13,7 @@ class PokemonList extends React.Component {
 			  </li> 
 			);
 		  })}
-		</ul>	
+		</ol>	
 	  );
 	}
 	}
