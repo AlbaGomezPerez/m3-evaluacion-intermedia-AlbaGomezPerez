@@ -3,7 +3,7 @@
 }
 .Info{
 	list-style: none; 
-	display: flex; 
+	display: flex;  
 }
 .InfoCharacter{
 	background-color: rgb(180, 224, 210); 
