@@ -17,17 +17,9 @@ class App extends Component {
 			<PokemonList PokemonInfo={this.state.PokemonInfo} />
 		  </div>
 		);
-	  }
 	}
+}
 
-// MEJORAS:
-
-	//2. componente de la tarjeta "Pokemon":
-		// const Pokemon = => { (hacerlo mejor como clase)
-			// return( meter la estructura de la imagen, nombre...)}
-
-	// 3. componente PokeList: meter el ol completo y dentro llamar 
-	// a todos los elementos del componente Pokemon.
 
 	// 4. Meter primero el nombre y luego la imagen (por la gente que 
 	// no puede ver) y luego por estilos subimos la imagen.
