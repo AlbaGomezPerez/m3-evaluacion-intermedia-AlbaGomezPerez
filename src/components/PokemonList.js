@@ -1,5 +1,7 @@
 import React from 'react'; 
 import PropTypes from 'prop-types';
+import './../styles/PokemonList.css';
+import Pokemon from './Pokemon'; 
 
 class PokemonList extends React.Component {
 	render() {
@@ -7,11 +9,7 @@ class PokemonList extends React.Component {
 		<ol className="Info">
 		  {this.props.PokemonInfo.map(character => {
 			return (
-			  <li className="InfoCharacter" key={character.id}> 
-			  	  <div className="InfoImg"> <img alt={character.name} src={character.url}></img>  </div>
-				  <div className="InfoName"> {character.name} </div>
-				  <div className="Infotypes"> {character.types} </div>
-			  </li> 
+				<Pokemon key={character.id} name={character.name} url={character.url} types={character.types}/>
 			);
 		  })}
 		</ol>	

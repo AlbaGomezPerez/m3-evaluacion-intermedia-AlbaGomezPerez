@@ -1,30 +1,3 @@
 .App {
   text-align: center;
 }
-.Info{
-	list-style: none; 
-	display: flex;  
-}
-.InfoCharacter{
-	background-color: rgb(180, 224, 210); 
-	width: 200px; 
-	margin-top: 20px; 
-	margin-left: 20px; 
-	
-} 
-.InfoImg{
-	background-color:  rgb(180, 224, 210); ; 
-	width: 200px; 
-	height: 150px;
-}
-.InfoName{
-	background-color: rgb(153, 199, 184); ; 
-	width: 200px; 
-	height: 30px;
-
-}
-.Infotypes{
-	background-color:  rgb(115, 146, 136); ; 
-	width: 200px; 
-	height: 30px;
-}

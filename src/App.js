@@ -21,7 +21,6 @@ class App extends Component {
 	}
 
 // MEJORAS:
-	//1. poner Key para (index)
 
 	//2. componente de la tarjeta "Pokemon":
 		// const Pokemon = => { (hacerlo mejor como clase)
