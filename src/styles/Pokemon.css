@@ -1,15 +1,23 @@
 .InfoCharacter{
-	background-color: rgb(180, 224, 210); 
+	/* background-color: rgb(180, 224, 210);  */
 	width: 200px; 
 	margin-top: 20px; 
 	margin-left: 20px; 
 	
 } 
+
 .InfoImg{
-	background-color:  rgb(180, 224, 210); ; 
+	background-color:  rgb(180, 224, 210);
 	width: 200px; 
 	height: 150px;
 }
+
+.fav{
+	background-color: rgb(175, 89, 108); 
+	width: 200px; 
+	height: 150px;
+}
+
 .InfoName{
 	background-color: rgb(153, 199, 184); ; 
 	width: 200px; 

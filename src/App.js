@@ -9,6 +9,7 @@ class App extends Component {
 	  this.state = {
 		  PokemonInfo : PokemonInfo, 
 	  } 
+	  		
 	}
  
 	render() {
